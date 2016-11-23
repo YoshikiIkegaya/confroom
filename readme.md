@@ -1,0 +1,2 @@
+#忘れないで！！
+bower install
