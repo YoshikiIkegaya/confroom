@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>confroom</title>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" />
+    <script src="bower_components/moment/min/moment.min.js"></script>
+</head>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="row">
+            <div class='col-sm-4 col-md-4'>
+                <div class="form-group">
+                    <div class='input-group date' id='datetimepicker1'>
+                        <input type='text' class="form-control" />
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class='col-sm-4 col-md-4'>
+                <div class="dropdown">
+                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    Dropdown
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><a href="#">Atlantic</a></li>
+                    <li><a href="#">Pacific</a></li>
+                    <li><a href="#">Singapore</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Manila</a></li>
+                    <li><a href="#">Dhaka</a></li>
+                    <li><a href="#">Phnompenh</a></li>
+                    <li><a href="#">Tokyo</a></li>
+                  </ul>
+                </div>
+            </div>
+            <div class='col-sm-4 col-md-4'>
+                <button type="button" class="btn btn-default">Search</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#datetimepicker1').datetimepicker();
+        });
+    </script>
+</body>
+</html>
